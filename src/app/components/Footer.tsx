@@ -19,11 +19,11 @@ const Footer = () => {
           </span>
         </div>
         <Link
-          href={"/"}
+          href={"mailto:your-email@gmail.com"}
           target="_blank"
           className="underline underline-offset-2 decoration-gray-500"
         >
-          Book a call
+          Drop a message
         </Link>
       </div>
     </footer>
