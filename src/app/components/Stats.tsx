@@ -45,19 +45,12 @@ const Stats = () => {
           Happy Clients
         </p>
       </div>
-      <div className="flex flex-col items-center justify-center">
-        <h2 className="dark:bg-lightGradient  bg-darkGradient bg-clip-text tracking-tighter text-transparent font-black text-7xl sm:text-6xl xs:text-4xl">
-          <AnimatedNumbers value={10} />+
-        </h2>
-        <p className="text-sm sm:text-xs sm:font-medium text-[#565854] dark:text-primaryDark  font-extrabold">
-          Platforms
-        </p>
-      </div>
+      
       <div className="flex flex-col items-center justify-center">
         <h2 className="dark:bg-lightGradient  bg-darkGradient bg-clip-text tracking-tighter text-transparent font-black text-7xl sm:text-6xl xs:text-4xl">
           <AnimatedNumbers value={3} />+
         </h2>
-        <p className="text-sm sm:text-xs sm:font-medium text-[#565854] dark:text-primaryDark  font-extrabold sm:max-w-10">
+        <p className="text-sm sm:text-xs sm:font-medium text-[#565854] dark:text-primaryDark  font-extrabold">
           Years Of Experience
         </p>
       </div>

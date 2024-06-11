@@ -9,7 +9,8 @@ const Socials = () => {
     <div className="flex flex-col items-center  justify-center gap-y-8 lg:gap-y-4  fixed z-50 top-[20%] xl:top-[20%] right-[10%] sm:right-[2%] backdrop-blur-md rounded-2xl lg:top-[2%] w-16 max-w-md h-auto p-4 lg:p-1 ">
       <Link
         className="group relative flex items-center hover:text-accent transition-all duration-300"
-        href={"/"}
+        href={"https://x.com/Bolexzyy__"}
+        target="_blank"
       >
         {/* tooltip */}
         <motion.div
@@ -36,7 +37,8 @@ const Socials = () => {
 
       <Link
         className="group relative flex items-center hover:text-accent transition-all duration-300"
-        href={"/"}
+        href={"https://github.com/Bolexzy"}
+        target="_blank"
       >
         {/* tooltip */}
         <motion.div
@@ -62,7 +64,8 @@ const Socials = () => {
       </Link>
       <Link
         className="group relative flex items-center hover:text-accent transition-all duration-300"
-        href={"/"}
+        href={"https://www.linkedin.com/in/boluwatifeo/"}
+        target="_blank"
       >
         {/* tooltip */}
         <motion.div
